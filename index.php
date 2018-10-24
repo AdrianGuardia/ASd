@@ -8,17 +8,8 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body >
-    <div id="bg" class="asd">
-        <div >
-            <ul >
-                <a href="">Menu</a>
-            </ul>
-        </div> 
-    </div> 
-    <div id="asd2">Pizzeria</div>  
-    <div >Pizzeria</div>  
-
-    </div>
+    <?php include("partes/cabecera.php") ?>
+   
     
 </body>
 </html>

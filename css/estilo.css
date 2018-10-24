@@ -16,6 +16,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
     src: url("simonetta.regular.ttf");
 
 }
+#ha1{
+    
+    font-family: Simonet;
+    border: 1px solid red;
+    margin-right: 300px;
+    margin-top: 150px;
+    font-size: 35px;
+}
 
 .asd{
     
@@ -26,13 +34,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
     padding-left: auto;
 }
 #asd2{
-    color: black;
+    color: white;
     font-family: Simonet;
-    border: 1px solid black;
+    
     margin-top: 10px;
     font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
  body{
     background-image: url('https://www.colourbox.com/preview/31439435-pizza-seamless-pattern-hand-drawn-sketch-pizza-doodles-food-background-with-flour-and-other-food-ingredients-oven-and-kitchen-tools-vector-illustration.jpg');
-    font-size: 40px;
+    
+}
+#img{
+    margin-left: 100px;
+    float:left;
+}
+ul a {
+    margin-left: 20px;
+}
+#clear{
+    clear: both;
+}
+#cont2{
+    background-color: antiquewhite;
+    width: 90%;
 }
