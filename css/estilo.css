@@ -1,0 +1,38 @@
+#bg{
+    background: rgba(248,80,50,1);
+background: -moz-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(0,255,51,1) 51%, rgba(0,181,39,1) 73%, rgba(0,138,9,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(50%, rgba(241,111,92,1)), color-stop(51%, rgba(0,255,51,1)), color-stop(73%, rgba(0,181,39,1)), color-stop(100%, rgba(0,138,9,1)));
+background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(0,255,51,1) 51%, rgba(0,181,39,1) 73%, rgba(0,138,9,1) 100%);
+background: -o-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(0,255,51,1) 51%, rgba(0,181,39,1) 73%, rgba(0,138,9,1) 100%);
+background: -ms-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(0,255,51,1) 51%, rgba(0,181,39,1) 73%, rgba(0,138,9,1) 100%);
+background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(0,255,51,1) 51%, rgba(0,181,39,1) 73%, rgba(0,138,9,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#008a09', GradientType=0 );
+
+
+}
+
+@font-face{
+    font-family:Simonet;
+    src: url("simonetta.regular.ttf");
+
+}
+
+.asd{
+    
+    color: white;
+    margin: auto;
+    width: 90%;
+    height: 50px;
+    padding-left: auto;
+}
+#asd2{
+    color: black;
+    font-family: Simonet;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 40px;
+}
+ body{
+    background-image: url('https://www.colourbox.com/preview/31439435-pizza-seamless-pattern-hand-drawn-sketch-pizza-doodles-food-background-with-flour-and-other-food-ingredients-oven-and-kitchen-tools-vector-illustration.jpg');
+    font-size: 40px;
+}
