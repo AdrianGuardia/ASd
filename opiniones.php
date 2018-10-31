@@ -1,7 +1,7 @@
 <?php 
 session_start();
 $db=new PDO('mysql:host=localhost;dbname=pj01;charset=utf8', 'root', '');
-$stmt = $db->query("SELECT * FROM opiniones ORDER BY id DESC");
+$stmt = $db->query("SELECT * FROM opiniones ORDER BY idOp DESC");
 $opiniones= $stmt->fetchAll();
 ?>
 <!DOCTYPE html>

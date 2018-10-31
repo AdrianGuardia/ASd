@@ -9,7 +9,7 @@ $fn = $_POST["fn"];
 # Proceso
 $pas = sha1($p1);
 $db = new PDO('mysql:host=localhost;dbname=pj01;charset=utf8', 'root', '');
-$db->query("INSERT INTO clientes VALUES (NULL, '$n', '$a','$c')");
+$db->query("INSERT INTO clientes VALUES (NULL, '$n', '$a','$c','$pas')");
 
 # Salida
 header('Location: index.php');
