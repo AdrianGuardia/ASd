@@ -119,3 +119,16 @@ ul a {
 #for{
     padding-top: 1.5px;
 }
+#foot{
+    background-color: white;
+    color: black;
+    border-top: 1px solid black;
+    margin: auto;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+
+    
+}

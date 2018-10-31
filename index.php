@@ -9,7 +9,7 @@
 </head>
 <body >
     <?php include("partes/cabecera.php") ?>
-   
+    <?php include 'partes/footer.php'?>
     
 </body>
 </html>
