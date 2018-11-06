@@ -1,4 +1,6 @@
-
+<?php
+session_start()
+?>  
 <?php
 $db = new PDO('mysql:host=localhost;dbname=pj01;charset=utf8', 'root', '');
 $stet=$db->query("SELECT * from promociones");
@@ -29,7 +31,7 @@ $prom=$stet->FetchAll();
 
 
     </div>
-
+    
 
 
 

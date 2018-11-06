@@ -3,7 +3,7 @@
 
        <a href="contacto.php" id="lg2">Contacto</a>
        <?php if (isset($_SESSION["correo"])){ ?>
-       <a href="exit.php">Cerrar Session</a>
+       <a href="exit.php" id="lg2">Cerrar Session</a>
 
        <?php }else{ ?>
        <a href="iniciar.php" id="lg2">Iniciar Sesion</a>
@@ -33,14 +33,14 @@
                 
                 <a href="" id="asd2">Menu</a>
                 <?php if (isset($_SESSION["correo"])) { ?>
-                <a href="carro.php" id="asd2"></a>
+                <a href="carro.php" id="asd2">Mis Compras</a>
                 <?php } ?>
 
                 <a href="opiniones.php" id="asd2">Opiniones</a>
                 
-                <?php if ($_SESSION["correo"]="administrador@romana"){ ?>
+                <?php if ($_SESSION["correo"]=="administrador@romana") { ?>
                     <a href="agregarprom.php" id="asd2">Agregar Promociones</a>
-                <?php }?>
+                <?php } ?>
             
             </ul>
 </div> 

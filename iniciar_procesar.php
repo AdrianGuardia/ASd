@@ -13,6 +13,7 @@ $validacion= false;
 if (count($usuarios)==1){
     $validacion=true;
     session_start();
+    $_SESSION["idus"]=$usuarios[0]["idcl"];
     $_SESSION["correo"]=$correo;
     if ($correo="administrador@romana") {
         $_SESSION["tipo"]=1;
