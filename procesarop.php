@@ -18,6 +18,7 @@ session_start();
     <form action="procproc.php" method="post">
         <div>Ingresa aqui tu opinion</div>
         <textarea name="texto" id="" cols="30" rows="10"></textarea>
+        
         <button type="submit">Enviar</button>
         
     

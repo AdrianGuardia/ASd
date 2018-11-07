@@ -28,17 +28,19 @@
                 <a href="promociones.php" id="asd2">Promociones</a>
             
                 <a href="" id="asd2">Carta</a>
-            
+                <?php if (isset($_SESSION["tipo"]) && ($_SESSION["tipo"]==1)) {  ?> 
+               
+                <?php } else { ?>
                 <a href="" id="asd2">Delivery</a>
-                
+                <?php } ?>
                 <a href="" id="asd2">Menu</a>
-                <?php if (isset($_SESSION["correo"])) { ?>
+                <?php if (isset($_SESSION["correo"]) && ($_SESSION["tipo"]!=1)) { ?>
                 <a href="carro.php" id="asd2">Mis Compras</a>
                 <?php } ?>
 
                 <a href="opiniones.php" id="asd2">Opiniones</a>
                 
-                <?php if ($_SESSION["correo"]=="administrador@romana") { ?>
+                <?php if ( isset($_SESSION["correo"]) && $_SESSION["correo"]=="administrador@romana") { ?>
                     <a href="agregarprom.php" id="asd2">Agregar Promociones</a>
                 <?php } ?>
             

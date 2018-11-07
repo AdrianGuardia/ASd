@@ -20,13 +20,17 @@ $opiniones= $stmt->fetchAll();
     <?php include("partes/cabecera.php")?>
     <div id="conto">
         <h1 id="lg3">Opiniones de nuestros Usuarios</h1>
+        <?php if (isset($_SESSION["correo"])) { ?>
         <form action="procesarop.php" method="post">
                     <input type="hidden" name="id" value="<?php echo $_SESSION["idus"] ?>">
-                    <button type="submit">Da tu Opinion</button>
+                    <button type="submit" id="bt">Da tu Opinion</button>
+        <?php } ?>
 
         <?php foreach($opiniones as $p){?>
-            <h3><?php echo $p["Nombre"]?></h3>
+            <div id="promo">
+            <h3><?php echo $p["Nombre"]?> <?php echo $p["Apellido"]?></h3>
             <p><?php echo $p["Cont"]?></p>
+            </div>
 
         <?php } ?>
     </div>

@@ -15,9 +15,13 @@ if (count($usuarios)==1){
     session_start();
     $_SESSION["idus"]=$usuarios[0]["idcl"];
     $_SESSION["correo"]=$correo;
-    if ($correo="administrador@romana") {
+    if ($correo=="administrador@romana") {
         $_SESSION["tipo"]=1;
     }
+    else{
+        $_SESSION["tipo"]=2;
+    } 
+
 
 }
 if ($validacion) {

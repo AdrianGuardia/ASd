@@ -21,12 +21,13 @@ session_start()
             Precio de la Promocion: <input type="text" name="prec">
         </div>
         <div id="asd2">
-            Descripcion de la Promocion: 
+            Imagen de la Promocion: <input type="text" name="imag">
         </div>
-        <div>
-        <textarea name="text" id="" cols="30" rows="10"></textarea>
+        <div id="asd2">
+            Descripcion de la Promocion:
+            <textarea name="text" id="" cols="30" rows="10"></textarea>
         </div>
-            <button type="submit">Agregar</button>
+            <button type="submit" id="bt">Agregar</button>
         </form>
 
     
