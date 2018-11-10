@@ -12,7 +12,7 @@ session_start();
 </head>
 <body >
     <?php include("partes/cabecera.php") ?>
-    <?php include 'partes/footer.php'?>
+    
     <div id="contmain">
     
     <img src="https://photo620x400.mnstatic.com/196b1d55b659028dc9b126744fe2c29e/palermo-pizzeria.jpg" width=300px height=200px; style="float:left">

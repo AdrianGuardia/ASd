@@ -12,9 +12,10 @@ session_start();
 </head>
 <body>
 <?php include 'partes/cabecera.php'?>
-    <h2>Iniciar Sesion</h2>
+    
     
     <div id="contr">
+    <h2 id="inic">Iniciar Sesion</h2>
     <?php if (isset($_GET["error"])) { ?>
     <p style="color: red">Datos inválidos</p>
     <?php } ?>
@@ -26,7 +27,7 @@ session_start();
         <div>
             Contraseña: <input type="password" name="password">
         </div>
-        <button type="submit">Iniciar sesión</button>
+        <button type="submit" id="bt3">Iniciar sesión</button>
     </form>
     </div>
 
@@ -36,6 +37,7 @@ session_start();
     
     
     </form>
+    
     
 </body>
 </html>

@@ -18,7 +18,7 @@ $prom=$stet->FetchAll();
 </head>
 <body>
     <?php include 'partes/cabecera.php' ?>
-
+    
     
     <div id="conto">
     <?php if (isset($_SESSION["correo"])) { ?>
@@ -46,6 +46,6 @@ $prom=$stet->FetchAll();
 
 
 
-    
+   
 </body>
 </html>

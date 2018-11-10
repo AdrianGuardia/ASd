@@ -1,13 +1,16 @@
 <div id="lg">
     <ul>
-
-       <a href="contacto.php" id="lg2">Contacto</a>
+       <img src="https://image.flaticon.com/icons/png/512/9/9243.png" height=20 width=20> 
+       <a href="contacto.php" id="lg2" style="text-decoration: none">Contacto</a>
        <?php if (isset($_SESSION["correo"])){ ?>
-       <a href="exit.php" id="lg2">Cerrar Session</a>
+       
+       <a href="exit.php" id="lg2" style="text-decoration: none">Cerrar Session</a>
 
        <?php }else{ ?>
-       <a href="iniciar.php" id="lg2">Iniciar Sesion</a>
-       <a href="registraru.php" id="lg2">Registrarse</a>
+       <img src="http://www.stickpng.com/assets/images/585e4bf3cb11b227491c339a.png" height=20 widht=20>
+       <a href="iniciar.php" id="lg2" style="text-decoration: none">Iniciar Sesion</a>
+        <img src="https://cdn0.iconfinder.com/data/icons/cosmetic-store/25/Register-512.png" width=20 heigth=20>
+       <a href="registraru.php" id="lg2" style="text-decoration: none">Registrarse</a>
         <?php }?>
     </ul>
 
@@ -18,22 +21,23 @@
     <h1 id="ha1">Prueba Nuestros productos de Alta Calidad</h1>
 </div>    
 <div id="clear"></div>
-<div id="bg" class="asd">
+<div id="bg" >
         <div id="cont">
             <ul >
                
                 <a href="index.php" id="asd2">Nosotros</a>
+                <a href="" id="asd2">Numeros de Delivery</a>
             
 
-                <a href="promociones.php" id="asd2">Promociones</a>
+                <a href="promociones.php" id="asd2">Promociones Online</a>
             
-                <a href="" id="asd2">Carta</a>
+                
                 <?php if (isset($_SESSION["tipo"]) && ($_SESSION["tipo"]==1)) {  ?> 
                
                 <?php } else { ?>
-                <a href="" id="asd2">Delivery</a>
+                
                 <?php } ?>
-                <a href="" id="asd2">Menu</a>
+                <a href="Menu.php" id="asd2">Menu</a>
                 <?php if (isset($_SESSION["correo"]) && ($_SESSION["tipo"]!=1)) { ?>
                 <a href="carro.php" id="asd2">Mis Compras</a>
                 <?php } ?>
