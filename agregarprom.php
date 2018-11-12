@@ -24,6 +24,9 @@ session_start()
             Imagen de la Promocion: <input type="text" name="imag">
         </div>
         <div id="asd2">
+            Tipo de la Promocion: <input type="text" name="tipo">
+        </div>
+        <div id="asd2">
             Descripcion de la Promocion:
             <textarea name="text" id="" cols="30" rows="10"></textarea>
         </div>
