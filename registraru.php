@@ -29,9 +29,23 @@
     <div id="for">
         Nacimiento: <input type="date" name="fn">
     </div>
+    <div id="for">
+        Direccion: <input type="text" name="dir">
+    </div>
+    <div id="for">
+        Direccion: <input type="text" name="tel">
+    </div>
+
 
     <button type="submit">Crear cuenta</button>
 </form>
+
+    <h2>Con tu cuenta puedes:</h2>
+    <div id="reg">
+    <p>-Recibir ofertas especiales</p>
+    <p>-Pedir Online</p>
+    <p>-Dejarnos tu Opinion</p>
+</div>
 </div>
     
 </body>

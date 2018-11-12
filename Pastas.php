@@ -1,7 +1,7 @@
 <?php 
 session_start();
 $db=new PDO('mysql:host=localhost;dbname=pj01;charset=utf8', 'root', '');
-$stmt = $db->query("SELECT * FROM promociones where tipo = 'pizza'");
+$stmt = $db->query("SELECT * FROM promociones where tipo = 'pastas'");
 
 $pizz= $stmt->fetchAll();
 
@@ -21,7 +21,7 @@ $pizz= $stmt->fetchAll();
     <div id="conto5">
         
         <div id="pizz">
-            PIZZAS
+            PASTAS
             
                 
         </div>
@@ -31,7 +31,7 @@ $pizz= $stmt->fetchAll();
                 <div id="pizzdi">
                     <img src="<?php echo $p["imag"] ?>" alt="" height=200 width=200 style="float:left">
                     <h1> <i><?php echo $p["Nombre"] ?> </i></h1>
-                    <p><?php echo $p["Descrpicion"] ?> <br> <?php echo $p["tam"] ?> <br> S/. <?php echo $p["precio"] ?> </p>
+                    <p><?php echo $p["Descrpicion"] ?> <br> S/. <?php echo $p["precio"] ?> </p>
                     <input type="hidden" name="prec" value="<?php echo $p["idprom"] ?>">
                     <button type="submit" id="bto">Ordenar</button>
 

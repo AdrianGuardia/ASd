@@ -41,6 +41,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
  body{
+   margin:0;
+   padding:0;
     background-image: url('https://www.colourbox.com/preview/31439435-pizza-seamless-pattern-hand-drawn-sketch-pizza-doodles-food-background-with-flour-and-other-food-ingredients-oven-and-kitchen-tools-vector-illustration.jpg');
     
 }
@@ -101,6 +103,7 @@ ul a {
     margin-top: 0px;
     
     
+    
     display: flex;
     flex-wrap: wrap;
 }
@@ -142,11 +145,82 @@ ul a {
     height: 900px;
     
 }
+#conto2x{
+    background-color: antiquewhite;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    
+}
+#reg{
+    text-align: left;
+}
 #conto5{
     background-color: antiquewhite;
     margin-top: 0px;
     padding-bottom: 20px;
     height: 900px;
+    border:2px solid black;
+}
+
+#carros{
+    margin:auto; 
+    font-family: Simonet;
+    color: white;
+    font-size: 24px;
+    width: 400px;
+    height: 300px;
+    padding-left: 20px;
+    background-color: wheat;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+}
+#f1{
+
+    font-family: Simonet;
+    
+    color: white;
+    font-size: 22px;
+    border-bottom: 1px solid white;
+    text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+}
+#f2{
+
+    font-family: Simonet;
+    
+    color: white;
+    font-size: 22px;
+    border-bottom: 1px solid white;
+    text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+}
+
+#lg32 {
+    color: white;
+    font-size: 60px;
+    border-bottom:1px solid grey;
+    background-color: bisque;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    
+    text-align: left;
+    font-family: Simonet;
+    text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+}
+#lg31 {
+    color: white;
+    font-size: 60px;
+    border-bottom:1px solid grey;
+    background-color: bisque;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    
+    text-align: center;
+    font-family: Simonet;
+    text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
 }
 #lg3 {
     color: white;
@@ -163,12 +237,13 @@ ul a {
 
 #contr {
     color:black;
+    font-family: Simonet;
     background-color: antiquewhite;
     margin-top: 40px;
     width: 400px;
     margin: auto;
     border: 1px solid black;
-    height: 200px;
+    height: 400px;
     text-align: center;
 
     
@@ -220,12 +295,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
     background-color: antiquewhite;
     display: inline-block;
     width: 90%;
-    height: 500px;
+   
+    padding-top: 500px;
     margin-left: 70px;
     padding-top: 10px;
-    padding-left: 20;
+    
     text-align: left;
-    padding-left: 20px;
+    
     padding-bottom: 20px;
     border: 1px solid black;
     
@@ -235,8 +311,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
     font-family: Simonet;
 
 }
+#fff{
+    margin-left: 20px;
+    border: 1px solid black;
+    padding-left: 320px;
+    
+    background-color: wheat;
+    
+}
 #flr {
     float: right;
+}
+#clear {
+    clear:both;
+}
+#flx2{
+    
+    display: flex;
+    flex-wrap: wrap;
 }
 #promo {
     margin-left: 50px;
@@ -300,7 +392,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
-    #bt2:hover {
+#bt2x{
+    margin-left:20px;
+    margin-bottom: 5px;
+    background-color: red; 
+    border:1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Simonet;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+    #bt2,#bt2x:hover {
         background-color: wheat;
         color: Black;
         
@@ -341,6 +449,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 
         width:400px;
         height:250px;
+        border-radius: 20px;
+        border:1px solid red;
          
         background: rgba(255,250,145,1);
         background: -moz-linear-gradient(top, rgba(255,250,145,1) 0%, rgba(255,162,0,1) 73%, rgba(245,167,12,1) 87%, rgba(240,47,23,1) 87%, rgba(231,56,39,1) 100%);
@@ -380,3 +490,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
         margin-left: 50px;
         
         }    
+        #flx{
+            display: flex;
+    flex-wrap: wrap;
+        }

@@ -17,9 +17,13 @@ if (count($usuarios)==1){
     $_SESSION["correo"]=$correo;
     if ($correo=="administrador@romana") {
         $_SESSION["tipo"]=1;
+        
     }
     else{
         $_SESSION["tipo"]=2;
+        $_SESSION["pt"]=$usuarios[0]["ptos"];
+        $_SESSION["dir"]=$usuarios[0]["dir"];
+        $_SESSION["tel"]=$usuarios[0]["tel"];
     } 
 
 

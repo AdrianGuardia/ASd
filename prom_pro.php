@@ -6,6 +6,6 @@ $d=$_POST["imag"];
 
 
 $db = new PDO('mysql:host=localhost;dbname=pj01;charset=utf8', 'root', '');
-$db->query("INSERT INTO promociones VALUES (NULL, '$b', '$a','$c','$d')");
+$db->query("INSERT INTO promociones(precio,Nombre,Descrpicion,imag,tipo) VALUES ('$b', '$a','$c','$d','prom')");
 
 header('Location: index.php');
