@@ -19,7 +19,7 @@ $pizz= $stmt->fetchAll();
 <body>
 <?php include 'partes/cabecera.php'?>
     <div id="conto5">
-        
+    <?php if (isset($_SESSION["correo"])) { ?>
         <div id="pizz">
             PASTAS
             
@@ -39,6 +39,9 @@ $pizz= $stmt->fetchAll();
         </form  > 
         <?php }     ?>  
         </div>
+        <?php }else {     ?>
+            <h1 id="lg3">Inicie Sesion Primero</h1> 
+            <?php }     ?>
     </div>
     
 </body>
